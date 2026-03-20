@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="assets/favi.ico">
+  <meta name="description" content="NeonHarbor Games — premium free social casino lounges. Virtual coins only, no real money, no gambling.">
+  <title>NeonHarbor Games – Free Social Casino</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="assets/logo.webp" alt="NeonHarbor" class="logo-img"></a>
+      <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="games.html" class="nav-active">Games</a>
+        <a href="about.html">About</a>
+        <a href="responsible-play.html">Responsible Play</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="social-casino-strip" role="status" aria-live="polite">
+    <div class="container strip-inner">
+      <span class="strip-brand">NeonHarbor</span>
+      <span class="strip-tags">
+        <span class="strip-tag">Free to play</span>
+        <span class="strip-tag">Virtual coins</span>
+        <span class="strip-tag">Social casino</span>
+        <span class="strip-tag strip-tag-age">18+</span>
+      </span>
+    </div>
+  </div>
+
+  <main class="games-page ssc-new-games">
+    <section class="ssc-hero" aria-label="Games hero">
+      <div class="ssc-container ssc-hero-inner">
+        <div class="ssc-hero-head">
+          <div class="ssc-hero-badges" aria-hidden="true">
+            <span class="ssc-badge ssc-badge--hot">🔥 Trending</span>
+            <span class="ssc-badge ssc-badge--bonus">🎁 Bonus</span>
+          </div>
+
+          <h1 class="ssc-hero-title">Pick your NeonHarbor royal lounge tile</h1>
+          <p class="ssc-hero-lead">
+            Open any lounge in a new tab. NeonHarbor is free-to-play social casino fun with virtual coins only—no real money, no gambling.
+          </p>
+
+          <div class="ssc-hero-actions">
+            <a href="#ssc-game-grid" class="ssc-btn ssc-btn--primary">Play Free Now</a>
+            <a href="responsible-play.html" class="ssc-btn ssc-btn--ghost">Play responsibly</a>
+          </div>
+
+          <ul class="ssc-features" role="list" aria-label="Highlights">
+            <li>Virtual coins stay in-game</li>
+            <li>Fast open + new tab play</li>
+            <li>Entertainment only (18+)</li>
+          </ul>
+        </div>
+
+        <div class="ssc-hero-visual" aria-hidden="true">
+          <div class="ssc-ticket">
+            <img src="./assets/dice.webp" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="ssc-floater">
+            <strong>Coins. Not cash.</strong>
+            <span>No outside value—everything is simulated.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ssc-section" aria-label="Game filters">
+      <div class="ssc-container">
+        <div class="ssc-filterbar">
+          <div class="ssc-tabs" role="tablist" aria-label="Categories">
+            <a class="ssc-tab is-active" href="#ssc-game-grid" role="tab" aria-selected="true">All</a>
+            <a class="ssc-tab" href="#ssc-game-grid" role="tab" aria-selected="false">Slots</a>
+            <a class="ssc-tab" href="#ssc-game-grid" role="tab" aria-selected="false">Tables</a>
+            <a class="ssc-tab" href="#ssc-game-grid" role="tab" aria-selected="false">Dice</a>
+            <a class="ssc-tab" href="#ssc-game-grid" role="tab" aria-selected="false">Poker</a>
+          </div>
+          <div>
+            <select class="ssc-select" aria-label="Sort games">
+              <option value="featured" selected>Featured first</option>
+              <option value="new">New</option>
+              <option value="hot">Hot</option>
+              <option value="rating">Top rated</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ssc-section" aria-label="Game catalog">
+      <div class="ssc-container">
+        <div class="ssc-section-head">
+          <div>
+            <h2 class="ssc-h2">NeonHarbor Lounges</h2>
+            <p class="ssc-sub">Virtual coins only. No real-money gambling.</p>
+          </div>
+        </div>
+
+        <div class="ssc-grid ssc-game-grid" id="ssc-game-grid" role="list">
+          <a class="ssc-game-card" href="games/hi-lo-lounge/index.html" target="_blank" rel="noopener noreferrer" role="listitem">
+            <div class="ssc-card-inner">
+              <div class="ssc-thumb"><img src="./assets/dice.webp" alt="Neon Hi-Lo Pro Lounge thumbnail" loading="lazy" decoding="async"></div>
+              <div class="ssc-card-body">
+                <div class="ssc-card-top">
+                  <h3 class="ssc-card-title">Neon Hi-Lo Pro Lounge</h3>
+                  <div class="ssc-rating"><span>⭐</span>4.6</div>
+                </div>
+                <div class="ssc-tag-row"><span class="ssc-tag ssc-tag--new">New</span></div>
+                <ul class="ssc-features"><li>Virtual coins only</li><li>Fast rounds</li><li>Entertainment only</li></ul>
+                <div class="ssc-card-cta"><span class="ssc-card-play" aria-hidden="true">Play Free</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a class="ssc-game-card" href="games/lucky-flip-lounge/index.html" target="_blank" rel="noopener noreferrer" role="listitem">
+            <div class="ssc-card-inner">
+              <div class="ssc-thumb"><img src="./assets/playing-card.webp" alt="Velvet Lucky Flip Deluxe thumbnail" loading="lazy" decoding="async"></div>
+              <div class="ssc-card-body">
+                <div class="ssc-card-top">
+                  <h3 class="ssc-card-title">Velvet Lucky Flip Deluxe</h3>
+                  <div class="ssc-rating"><span>⭐</span>4.5</div>
+                </div>
+                <div class="ssc-tag-row"><span class="ssc-tag ssc-tag--hot">Hot</span></div>
+                <ul class="ssc-features"><li>Virtual coins only</li><li>Quick decisions</li><li>Entertainment only</li></ul>
+                <div class="ssc-card-cta"><span class="ssc-card-play" aria-hidden="true">Play Free</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a class="ssc-game-card" href="games/roulette/index.html" target="_blank" rel="noopener noreferrer" role="listitem">
+            <div class="ssc-card-inner">
+              <div class="ssc-thumb"><img src="./assets/roulette.webp" alt="Gold Roulette Deluxe thumbnail" loading="lazy" decoding="async"></div>
+              <div class="ssc-card-body">
+                <div class="ssc-card-top">
+                  <h3 class="ssc-card-title">Gold Roulette Deluxe</h3>
+                  <div class="ssc-rating"><span>⭐</span>4.7</div>
+                </div>
+                <div class="ssc-tag-row"><span class="ssc-tag ssc-tag--trending">Trending</span></div>
+                <ul class="ssc-features"><li>Virtual coins only</li><li>Instant play flow</li><li>Entertainment only</li></ul>
+                <div class="ssc-card-cta"><span class="ssc-card-play" aria-hidden="true">Play Free</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a class="ssc-game-card" href="games/blackjack/index.html" target="_blank" rel="noopener noreferrer" role="listitem">
+            <div class="ssc-card-inner">
+              <div class="ssc-thumb"><img src="./assets/blackjack.webp" alt="Royal Blackjack Grand Lounge thumbnail" loading="lazy" decoding="async"></div>
+              <div class="ssc-card-body">
+                <div class="ssc-card-top">
+                  <h3 class="ssc-card-title">Royal Blackjack Grand Lounge</h3>
+                  <div class="ssc-rating"><span>⭐</span>4.8</div>
+                </div>
+                <div class="ssc-tag-row"><span class="ssc-tag ssc-tag--trending">Trending</span></div>
+                <ul class="ssc-features"><li>Virtual coins only</li><li>Dealer-style rounds</li><li>Entertainment only</li></ul>
+                <div class="ssc-card-cta"><span class="ssc-card-play" aria-hidden="true">Play Free</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a class="ssc-game-card" href="games/slot-machine/index.html" target="_blank" rel="noopener noreferrer" role="listitem">
+            <div class="ssc-card-inner">
+              <div class="ssc-thumb"><img src="./assets/game_card_slot.webp" alt="Neon Slots Velocity thumbnail" loading="lazy" decoding="async"></div>
+              <div class="ssc-card-body">
+                <div class="ssc-card-top">
+                  <h3 class="ssc-card-title">Neon Slots Velocity</h3>
+                  <div class="ssc-rating"><span>⭐</span>4.4</div>
+                </div>
+                <div class="ssc-tag-row"><span class="ssc-tag ssc-tag--hot">Hot</span></div>
+                <ul class="ssc-features"><li>Virtual coins only</li><li>Spin-ready fun</li><li>Entertainment only</li></ul>
+                <div class="ssc-card-cta"><span class="ssc-card-play" aria-hidden="true">Play Free</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a class="ssc-game-card" href="games/Texas-Holdem/index.html" target="_blank" rel="noopener noreferrer" role="listitem">
+            <div class="ssc-card-inner">
+              <div class="ssc-thumb"><img src="./assets/poker.webp" alt="Ace Hold'em Masters thumbnail" loading="lazy" decoding="async"></div>
+              <div class="ssc-card-body">
+                <div class="ssc-card-top">
+                  <h3 class="ssc-card-title">Ace Hold'em Masters</h3>
+                  <div class="ssc-rating"><span>⭐</span>4.6</div>
+                </div>
+                <div class="ssc-tag-row"><span class="ssc-tag ssc-tag--new">New</span></div>
+                <ul class="ssc-features"><li>Virtual coins only</li><li>Two-card decisions</li><li>Entertainment only</li></ul>
+                <div class="ssc-card-cta"><span class="ssc-card-play" aria-hidden="true">Play Free</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a class="ssc-game-card" href="games/craps-game/index.html" target="_blank" rel="noopener noreferrer" role="listitem">
+            <div class="ssc-card-inner">
+              <div class="ssc-thumb"><img src="./assets/dice.webp" alt="Velvet Craps Royale thumbnail" loading="lazy" decoding="async"></div>
+              <div class="ssc-card-body">
+                <div class="ssc-card-top">
+                  <h3 class="ssc-card-title">Velvet Craps Royale</h3>
+                  <div class="ssc-rating"><span>⭐</span>4.3</div>
+                </div>
+                <div class="ssc-tag-row"><span class="ssc-tag ssc-tag--hot">Hot</span></div>
+                <ul class="ssc-features"><li>Virtual coins only</li><li>Dice-driven fun</li><li>Entertainment only</li></ul>
+                <div class="ssc-card-cta"><span class="ssc-card-play" aria-hidden="true">Play Free</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a class="ssc-game-card" href="games/Baccarat/index.html" target="_blank" rel="noopener noreferrer" role="listitem">
+            <div class="ssc-card-inner">
+              <div class="ssc-thumb"><img src="./assets/baccarat.webp" alt="Velvet Baccarat Royale thumbnail" loading="lazy" decoding="async"></div>
+              <div class="ssc-card-body">
+                <div class="ssc-card-top">
+                  <h3 class="ssc-card-title">Velvet Baccarat Royale</h3>
+                  <div class="ssc-rating"><span>⭐</span>4.5</div>
+                </div>
+                <div class="ssc-tag-row"><span class="ssc-tag ssc-tag--trending">Trending</span></div>
+                <ul class="ssc-features"><li>Virtual coins only</li><li>Banker vs Player</li><li>Entertainment only</li></ul>
+                <div class="ssc-card-cta"><span class="ssc-card-play" aria-hidden="true">Play Free</span></div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="ssc-mobile-cta" aria-label="Mobile sticky CTA">
+      <div class="ssc-container" style="padding:0;">
+        <a href="#ssc-game-grid" class="ssc-btn ssc-btn--primary">Play Free Now</a>
+      </div>
+    </div>
+
+    <section class="games-deck-wrap games-deck-first games-pit-section">
+      <div class="container">
+        <header class="games-pit-head">
+          <h2 class="games-deck-heading games-pit-title">Dealer’s rack</h2>
+          <p class="games-pit-sub">A refreshed lounge layout: velvet-framed cards with bold geometry. Open any table in a new tab—virtual coins only.</p>
+        </header>
+        <div class="games-lounge-grid" id="lounge-grid" role="list">
+          <a href="games/roulette/index.html" class="games-lounge-card games-lounge-card--roulette" target="_blank" rel="noopener noreferrer" role="listitem">
+            <span class="games-lounge-art" aria-hidden="true"></span>
+            <span class="games-lounge-scrim" aria-hidden="true"></span>
+            <span class="games-lounge-inner">
+              <span class="games-lounge-badge">Classic</span>
+              <span class="games-lounge-num">02</span>
+              <span class="games-lounge-name">Gold Roulette Lounge</span>
+              <span class="games-lounge-tag">Spin the wheel</span>
+              <span class="games-lounge-action">Open table <span class="games-lounge-arrow" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+
+          <a href="games/hi-lo-lounge/index.html" class="games-lounge-card games-lounge-card--hilo" target="_blank" rel="noopener noreferrer" role="listitem">
+            <span class="games-lounge-art" aria-hidden="true"></span>
+            <span class="games-lounge-scrim" aria-hidden="true"></span>
+            <span class="games-lounge-inner">
+              <span class="games-lounge-badge">Spotlight</span>
+              <span class="games-lounge-num">01</span>
+              <span class="games-lounge-name">Neon Hi-Lo Lounge</span>
+              <span class="games-lounge-tag">Higher or lower</span>
+              <span class="games-lounge-action">Open <span class="games-lounge-arrow" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+
+          <a href="games/lucky-flip-lounge/index.html" class="games-lounge-card games-lounge-card--flip" target="_blank" rel="noopener noreferrer" role="listitem">
+            <span class="games-lounge-art" aria-hidden="true"></span>
+            <span class="games-lounge-scrim" aria-hidden="true"></span>
+            <span class="games-lounge-inner">
+              <span class="games-lounge-badge">Quick</span>
+              <span class="games-lounge-num">03</span>
+              <span class="games-lounge-name">Velvet Lucky Flip Lounge</span>
+              <span class="games-lounge-tag">Heads or tails</span>
+              <span class="games-lounge-action">Open <span class="games-lounge-arrow" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+
+          <a href="games/blackjack/index.html" class="games-lounge-card games-lounge-card--blackjack" target="_blank" rel="noopener noreferrer" role="listitem">
+            <span class="games-lounge-art" aria-hidden="true"></span>
+            <span class="games-lounge-scrim" aria-hidden="true"></span>
+            <span class="games-lounge-inner">
+              <span class="games-lounge-badge">Classic</span>
+              <span class="games-lounge-num">04</span>
+              <span class="games-lounge-name">Royal Blackjack Lounge</span>
+              <span class="games-lounge-tag">Beat the dealer</span>
+              <span class="games-lounge-action">Open <span class="games-lounge-arrow" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+
+          <a href="games/slot-machine/index.html" class="games-lounge-card games-lounge-card--slots" target="_blank" rel="noopener noreferrer" role="listitem">
+            <span class="games-lounge-art" aria-hidden="true"></span>
+            <span class="games-lounge-scrim" aria-hidden="true"></span>
+            <span class="games-lounge-inner">
+              <span class="games-lounge-badge">Reels</span>
+              <span class="games-lounge-num">05</span>
+              <span class="games-lounge-name">Neon Slots Lounge</span>
+              <span class="games-lounge-tag">Spin the reels</span>
+              <span class="games-lounge-action">Open <span class="games-lounge-arrow" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+
+          <a href="games/Texas-Holdem/index.html" class="games-lounge-card games-lounge-card--poker" target="_blank" rel="noopener noreferrer" role="listitem">
+            <span class="games-lounge-art" aria-hidden="true"></span>
+            <span class="games-lounge-scrim" aria-hidden="true"></span>
+            <span class="games-lounge-inner">
+              <span class="games-lounge-badge">Poker</span>
+              <span class="games-lounge-num">06</span>
+              <span class="games-lounge-name">Ace Hold'em Lounge</span>
+              <span class="games-lounge-tag">Two cards, big decisions</span>
+              <span class="games-lounge-action">Open <span class="games-lounge-arrow" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+        </div>
+        <p class="games-back"><a href="index.html" class="btn-back">← Back to NeonHarbor</a></p>
+      </div>
+    </section>
+
+    <section class="games-expect-cards games-expect-after-deck games-expect-rail">
+      <div class="container">
+        <header class="games-expect-head games-expect-head--rail">
+          <h2 class="games-expect-cards-title">House rules</h2>
+          <p class="games-expect-lead">Three quick truths before you hit the pit.</p>
+        </header>
+        <ul class="games-expect-rail-list" role="list">
+          <li class="games-expect-rail-item">
+            <span class="games-expect-rail-icon">◎</span>
+            <div class="games-expect-rail-text">
+              <h3>Virtual coins only</h3>
+              <p>Credits stay in-game—stack, spin, and enjoy the social flow.</p>
+            </div>
+          </li>
+          <li class="games-expect-rail-item">
+            <span class="games-expect-rail-icon">▶</span>
+            <div class="games-expect-rail-text">
+              <h3>Browser tables</h3>
+              <p>New tab, instant play. No app store trip.</p>
+            </div>
+          </li>
+          <li class="games-expect-rail-item">
+            <span class="games-expect-rail-icon">✓</span>
+            <div class="games-expect-rail-text">
+              <h3>For fun only</h3>
+              <p>Virtual wins, real entertainment—nothing else on the line.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="games-how-inline games-how-ticket">
+      <div class="container">
+        <p class="games-how-line games-how-ticket-inner"><span class="games-how-ticket-label">Flow</span> Hub → quick lounge or classic table → virtual credits only → daily bonus where a game supports it → come back anytime.</p>
+      </div>
+    </section>
+
+    <section class="legal-strip" aria-label="Legal information">
+      <div class="container">
+        <p>Social casino · Free to play · <strong>Virtual coins</strong> · 18+ · Entertainment only</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-tagline"><span class="social-badge">NeonHarbor</span> — free social casino. Virtual coins, for fun only.</p>
+      <nav class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="responsible-play.html">Responsible Play</a>
+        <a href="contact.html">Contact</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </nav>
+      <p class="footer-age">18+ only. Free-to-play social casino. Virtual coins in every game.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
